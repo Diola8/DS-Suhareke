@@ -1,0 +1,10 @@
+.text-style{
+    color: #000;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    text-decoration:underline;
+    text-align: center;
+    font-size: 60px;
+   font-family: Arial, Helvetica, serif;
+   text-shadow: darkolivegreen;
+}
