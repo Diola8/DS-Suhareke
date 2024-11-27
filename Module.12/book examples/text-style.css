@@ -1,10 +1,23 @@
 .text-style{
-    color: #000;
+    color:purple;
     letter-spacing: 10px;
     word-spacing: 15px;
     text-decoration:underline;
     text-align: center;
     font-size: 60px;
-   font-family: Arial, Helvetica, serif;
-   text-shadow: darkolivegreen;
+   font-family: "body-text";
 }
+@font-face{
+    font-family:"body-text";
+    src:url(./fonts/Parkinsans-VariableFont_wght.ttf)
+}
+.font-class{
+    font-family:"body-text";
+    font-size: 16px;
+    font-weight: 400;
+}
+a{color: red;}
+a:link{color: blueviolet;}
+a:visited{color: darkblue;}
+a:hover{color: forestgreen;}
+a:active{color: darkred;}
