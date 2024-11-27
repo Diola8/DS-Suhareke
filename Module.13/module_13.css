@@ -1,0 +1,14 @@
+ol{
+    list-style-type:sware;
+}
+li{
+    border-bottom:1px solid red;
+}
+ol{
+    list-style-image:url('')
+}
+td,th{
+    border: 1px solid;
+    padding:20px;
+    border-collapse: collapse;
+}
