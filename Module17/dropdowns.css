@@ -1,0 +1,28 @@
+:root{
+    --primary-color: green;
+    --secondary-color:blue;
+    --spacing-inside-menu-items:20px;
+}
+a{
+    text-decoration:none;
+    color:#000
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-contant{ 
+    backround-color:var(--primary-color)
+    display: none;
+    position: absolute;
+    padding: 5px 10px;
+    border: 1px solid rgb(201, 196, 196);
+    -webkit-box-shadow: 13px 15px 61px -13px rgba(0,0,0,0.73);
+    -moz-box-shadow: 13px 15px 61px -13px rgba(0,0,0,0.73);
+    box-shadow: 13px 15px 61px -13px rgba(0,0,0,0.73);
+    left: 0;
+    top: 20px;
+}
+.dropdown a:hover + .dropdown-contant{
+    display: inline-block;
+}
+.
