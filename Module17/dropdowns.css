@@ -11,7 +11,7 @@ a{
     position: relative;
 }
 .dropdown-contant{ 
-    backround-color:var(--primary-color)
+    background-color:var(--primary-color);
     display: none;
     position: absolute;
     padding: 5px 10px;
@@ -24,5 +24,15 @@ a{
 }
 .dropdown a:hover + .dropdown-contant{
     display: inline-block;
+} 
+.tooltip{position:relative;
 }
-.
+.tooltip-text{
+    visibility:hidden;
+    position: absolute;
+    border:px solid #000;
+    border-radius:5px;
+}
+.tooltip:hover .tooltip-text{
+    visibility:visible;
+}
