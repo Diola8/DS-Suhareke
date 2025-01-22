@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+    div#translate{
+        width:200px;
+        height:200px; 
+        border-radius: 5px;
+        color: antiquewhite;
+        background-color: cadetblue;
+        transform:translate(100px,50px);
+        padding: 10px;
+    }
+    div#scaleX{
+        width:200px;
+        height:200px; 
+        border-radius: 5px;
+        color: antiquewhite;
+        background-color: cadetblue;
+        transform:scaleX(3);
+        margin-left: 250px;
+        padding: 10px;
+    }
+    div#rotate{
+        width:200px;
+        height:200px; 
+        border-radius: 5px;
+        color: antiquewhite;
+        background-color: cadetblue;
+        transform:rotateX(15px);
+        transform:rotatey(20px);
+        transform:rotatez(8px);
+        margin-left: 250px;
+        padding: 10px;
+    }
+    div{
+        transition:all 2s ease-in-out;
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+    }
+    div:hover{
+        transform: translate(300px);
+        width:400px;
+        height:400px;
+        background-color: yellowgreen;
+    }
+    </style>
+</head>
+<body>
+    <div id="translate"> 
+        <p>Hello</p>
+    </div>
+
+    <div id="scaleX"> 
+        <p>Hello</p>
+    </div>
+
+    <div id="rotate"> 
+        <p>Hello</p>
+    </div>
+
+    <div class="trasition"> 
+        <p>Hello</p>
+    </div>
+</body>
+</html>
