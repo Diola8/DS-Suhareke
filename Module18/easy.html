@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Easy18</title>
+</head>
+<style>
+     div#rotate{
+        width:200px;
+        height:200px; 
+        border-radius: 5px;
+        color: white;
+        background-color: goldenrod;
+        transform:rotateX(15px);
+        transform:rotatey(20px);
+        transform:rotatez(8px);
+        margin-left: 250px;
+        padding: 10px;
+     }
+     div:hover{
+        transform: translate(300px);
+        width:400px;
+        height:400px;
+        background-color:grey;
+    }
+    div#translate{
+        width:200px;
+        height:200px; 
+        border-radius: 5px;
+        color: plum;
+        background-color: purple;
+        transform:translate(100px,50px);
+        padding: 10px;
+    }
+        div{
+        transition:all 1.5s ease-in-out;
+        width: 200px;
+        height: 200px;
+        border: 1px solid;
+    }
+</style>
+<body>
+    <div id="rotate">
+        <p>Hi</p>
+    </div>
+    <div id="translate">
+        <p>Hello</p>
+    </div>
+</body>
+</html>
