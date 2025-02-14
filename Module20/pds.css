@@ -34,6 +34,9 @@
 }
 .h2{ text-align: center;}
 
+
+
+
 #section-2{
     background-color: #17c2a4;
     min-height: 745px;
@@ -86,10 +89,12 @@
     line-height: 26px;
 }
  
+
+
 #section-3{
-    background-color: #3c5499;
+    background-color: #e7f1f8;
     min-height: 820px;
-    color: white;
+    color:#3c4761;
 }
 
 #contact-form{
