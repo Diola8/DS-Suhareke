@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Easy19</title>
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: blue;
+            padding: 20px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .flex-container > div{
+            padding: 20px;
+            margin: 15px;
+            color: violet;
+            border: 1px solid white;
+        }
+        .flex-container >div:nth-child(1){
+        order:3;
+        flex-grow: 1;
+        }
+        .flex-container >div:nth-child(2){
+        order:1;
+        flex-grow: 2;
+        }
+        .flex-container >div:nth-child(3){
+        order:2;
+        background: rebeccapurple;
+        flex-grow: 2;  
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
