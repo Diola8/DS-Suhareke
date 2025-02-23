@@ -1,14 +1,45 @@
 .body{
-    margin: 0;
+    margin: 0px;
     font-family:" Arial", sans-serif;
     color: black;
 }
+h1{
+    margin: 25px;
+    font-size: 35px;
+}
 #section-1{
-    background-color:white;
-    height: 600px;
+    background-color:rgb(250, 225, 225);
+    display: list-item;
+    width: 150px;
+    min-height: 745px;
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    border: 2px;
+    background-color:rgba(44, 42, 42, 0.971);
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration:none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:rgba(25, 24, 24, 0.971);
+}
+.navbar li{
+    float: left;
 }
 .container{
     margin-left: auto;
     margin-right: auto;
     height: 100%;
+}
+.main-heding{
+    margin: 20px;
 }
