@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Sign in</title>
+</head>
+<style>
+    .form-bg{
+        width: 100%;
+        background-color: rgb(233, 227, 227);
+    }
+    .login-form{
+        margin: 0px;
+    padding: 0px;
+    font-family: " Arial", sans-serif;
+    color: black;
+    font-size: 25px;
+    background-color: rgb(233, 227, 227);
+    align-items: center;
+    width: 500px;
+    margin-left: calc(50% - 125px);
+    }
+    .home a{
+        font-size: 17px;
+        text-decoration: none;
+    }
+    .form-bg p{
+        font-size: 35px;
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <div class="form-bg">
+        <form class="login-form">
+            <p>Sign up here:</p>
+            <label for="username">Username </label><br>
+            <input type="text" name="username"/><br>
+            <label for="password">Password</label><br>
+            <input type="Password" name="password"/><br>
+            <label for="genger">Gender:</label><br>
+            <imput type="radio"name="gender" value="male"/>
+            <label for="gender">Male</label>
+            <input type="checkbox" name="male"><br>
+            <imput type="radio"name=gender value="female"/>
+            <label for="gender">Female</label>
+            <input type="checkbox" name="female"><br>
+            <input type="submit"> 
+        </form> 
+    </div>
+
+    <div class="home">
+    <ul>
+        <a href="Home.html"class="active">Returne home</a>
+    </ul>
+</div>
+</body>
+</html>

@@ -11,7 +11,7 @@ h1{
 #section-1{
     display: list-item;
     color: white;
-    margin: 15px;
+    margin: 45px;
 }
 .navbar ul{
     list-style-type: none;
@@ -37,7 +37,8 @@ h1{
     height: 100%;
 }
 div.gallery {
-    border: 5px solid rgb(249, 219, 164);
+    margin: 3px;
+    border:1px solid rgb(249, 219, 164);
     float: left;
     width: 180px;
 }
