@@ -59,3 +59,7 @@ div.desc {
 .navbar a:hover{
     background-color:rgba(25, 24, 24, 0.971);
 }
+footer{
+    width: 100%;
+    display: inline-block
+}
