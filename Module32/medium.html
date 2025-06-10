@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport">
-    <title>Easy 32</title>
+    <title>Medium 32</title>
     <style>
         .error{
+            color: red;
+            font-size: 12px;
+            display:none;
+        }
+        .error1{
             color: red;
             font-size: 12px;
             display:none;
@@ -14,12 +19,14 @@
 </head>
 <body>
     <form id="nameForm">
-        <label for="name">Shkruani emrin:</label>
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
+        <label for="name">Age</label>
+        <input type="text" id="age" name="age" required>
         <span id="error" class="error">Error</span>
-        <button type="submit">Dergo</button>
+        <button type="submit">Submit</button>
     </form>
 
-    <script src="easy.js"></script>
+    <script src="medium.js"></script>
 </body>
 </html>
