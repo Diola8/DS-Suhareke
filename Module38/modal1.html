@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    
+    <div class="container mt-3">
+        
+        <h2>Fullscreen</h2>
+        <p>Click on the button to open fullscreen modal</p>
+
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">Open Modal</button>
+
+    </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+
+             <div class="modal-heder">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+             </div>
+
+             <div class="modal-body">Modal Body</div>
+
+             <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
